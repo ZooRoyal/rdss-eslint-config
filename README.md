@@ -1,4 +1,4 @@
-# eslint-config-rdss-coding-standard
+# @rdss/eslint-config
 
 This ESLint Ruleset integrates all Javascript & Typescript related RDSS coding standard rules and can be used to run eslint on save, commit or manually.
 
@@ -6,9 +6,9 @@ This ESLint Ruleset integrates all Javascript & Typescript related RDSS coding s
 
 To enable this config and ruleset in your project do the following:
 
-1. Run `npm install --save-dev eslint-config-rdss-coding-standard` to install the config as a npm dependency.
+1. Run `npm install --save-dev @rdss/eslint-config` to install the config as a npm dependency.
 1. Create a `.eslintrc.js` in your project root.
-1. Extend the created ESLint config with this config in the **extend** block: `extends: ['rdss-coding-standard']`
+1. Extend the created ESLint config with this config in the **extend** block: `extends: ['@rdss/eslint-config']`
 
 A minimal example of a working `.eslintrc.js` can look like the following:
 
@@ -18,7 +18,7 @@ A minimal example of a working `.eslintrc.js` can look like the following:
  */
 
 module.exports = {
-    extends: ['rdss-coding-standard'],
+    extends: ['@rdss/eslint-config'],
 };
 ```
 
