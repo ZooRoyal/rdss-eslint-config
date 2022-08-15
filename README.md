@@ -6,7 +6,7 @@ This ESLint Ruleset integrates all Javascript & Typescript related RDSS coding s
 
 To enable this config and ruleset in your project do the following:
 
-1. Run `npm install --save-dev @rdss/eslint-config` to install the config as a npm dependency.
+1. Run `npm install --save-dev github:zooroyal/rdss-eslint-config#main` to install the config as a npm dependency.
 1. Create a `.eslintrc.js` in your project root.
 1. Extend the created ESLint config with this config in the **extend** block: `extends: ['@rdss/eslint-config']`
 
