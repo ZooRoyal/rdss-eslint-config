@@ -1,5 +1,5 @@
 {
-    "name": "rdss-eslint-config",
+    "name": "@rdss/eslint-config",
     "version": "1.0.0",
     "description": "ESLint Config which represents the rules of the RDSS coding standard",
     "main": "index.js",
