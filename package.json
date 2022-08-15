@@ -1,5 +1,5 @@
 {
-    "name": "eslint-config-rdss-coding-standard",
+    "name": "@rdss/eslint-config",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -10,7 +10,7 @@
         "type": "git",
         "url": "git+https://github.com/ZooRoyal/eslint-config-rdss-coding-standard.git"
     },
-    "author": "",
+    "author": "Moritz Kanzler",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/ZooRoyal/eslint-config-rdss-coding-standard/issues"

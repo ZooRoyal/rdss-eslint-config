@@ -24,8 +24,11 @@ module.exports = {
 
 ## How to run ESLint with this config
 
-### Integrate in NPM
+To let run ESLint with this coding standard config applied you can use several ways.
+Please refer the documentation of eslint.
 
-### Integrate in VSCode
+A common approach to check the code anyway is using `npx`:
 
-### Integrate in PHPStorm
+```bash
+npx eslint
+```
