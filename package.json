@@ -1,21 +1,18 @@
 {
     "name": "@rdss/eslint-config",
     "version": "1.0.0",
-    "description": "",
+    "description": "ESLint Config which represents the rules of the RDSS coding standard",
     "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ZooRoyal/eslint-config-rdss-coding-standard.git"
+        "url": "git+https://github.com/ZooRoyal/rdss-eslint-config.git"
     },
     "author": "Moritz Kanzler",
-    "license": "ISC",
+    "license": "",
     "bugs": {
-        "url": "https://github.com/ZooRoyal/eslint-config-rdss-coding-standard/issues"
+        "url": "https://github.com/ZooRoyal/rdss-eslint-config/issues"
     },
-    "homepage": "https://github.com/ZooRoyal/eslint-config-rdss-coding-standard#readme",
+    "homepage": "https://github.com/ZooRoyal/rdss-eslint-config#readme",
     "peerDependencies": {
         "eslint": ">= 7",
         "@stencil/eslint-plugin": "^0.4.0",
